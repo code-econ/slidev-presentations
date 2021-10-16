@@ -40,3 +40,28 @@ const imgUrl = new URL('./img.png', import.meta.url).href
 
 see [documentation](https://vitejs.dev/guide/assets.html#static-asset-handling)
 
+
+
+## Custom components
+
+### Link
+
+The `Link.vue` component allows you to add a link to another slide by simply using `<Link target="slide_label" text="go there" />` where `slide_label` is added as a label property to the front matter of one of your slides. To use, copy the file to your `components` folder and then write something like:
+
+```md
+
+---
+label: slide_a
+---
+
+# Hello, this is Slide A
+
+some content
+
+--- 
+
+# Other slide
+
+<Link target="slide_a" text="go to slide A" />
+
+```
