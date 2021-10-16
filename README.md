@@ -14,6 +14,7 @@ Main link to [slidev](https://sli.dev/)
 
  - put in the image in the `public` folder
  - point to the image in `<img src="/myimage.png" />`
+ - see [documentation](https://vitejs.dev/guide/assets.html#static-asset-handling)
 
 ### Styling
 
@@ -36,3 +37,6 @@ This is if you don't know the filename at build time. You can use the following 
 ```js
 const imgUrl = new URL('./img.png', import.meta.url).href
 ```
+
+see [documentation](https://vitejs.dev/guide/assets.html#static-asset-handling)
+
