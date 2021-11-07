@@ -5,7 +5,7 @@ Main link to [slidev](https://sli.dev/)
 
 ## Some links
 
- - [WindyCss cheatsheet](https://nerdcave.com/tailwind-cheat-sheet) or [TailwindCSS helper](https://tailwindcomponents.com/cheatsheet/)
+ - [TailwindCSS helper](https://tailwindcomponents.com/cheatsheet/) very close to Windy CSS.
  - [icon search](https://icones.js.org/)
 
 ## Images / plots
