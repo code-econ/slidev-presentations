@@ -66,7 +66,7 @@ some content
 
 ```
 
-### Using plotly
+###  Plotly interactive 3D surface
 
 First install it with `npm install plty.js-dist`
 
